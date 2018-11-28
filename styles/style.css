@@ -274,11 +274,20 @@ span.proficiency-open{
 	padding: 5px 10px;
 	margin-top: 10px;
 	border-radius: 40%;
+	border-bottom: 3px solid #045044;
+	border-right: 3px solid #045044;
 	color: #BCF6F2;
 	font-style: italic;
-	background-color: #045044;
+	text-align: center;
+	background-color: #048944;
 	float: right;
 }
+ .proficiency-open:hover{
+	 background-color: #045044;
+	 border-bottom: 3px solid #04C744;
+	border-right: 3px solid #04C744;
+	 cursor: pointer;
+ }
 .proficiency-div{
 	width: 80vw;
 	height: 90vh;
@@ -309,7 +318,7 @@ span.proficiency-open{
 	background-color: #045044;
 	color: #BCF6F2;
 }
-div.section-head:hover, .btn-holder button:active, .footer-social-media-links li:hover, .proficiency-open:hover, .proficiency-close:hover{
+div.section-head:hover, .btn-holder button:active, .footer-social-media-links li:hover, .proficiency-close:hover{
 	background-color: #048944;
 	cursor: pointer;
 }
