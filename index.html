@@ -10,26 +10,32 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1"/>
 		
 		<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
+		<link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+		<link href="https://fonts.googleapis.com/css?family=Rakkas" rel="stylesheet">
+
 		<link href="styles/style.css" rel="stylesheet"/>
 		
-		<script src="scripts/jquery-3.2.1.min.js"></script>
+		<script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
 	</head>
-	<body>
+	<body class='no-scroll'>
 		<div class="preloader"><img src="images/preloader.gif" alt=""/></div>
 		<div id="container">
 			<div id="particles-js" class="intro">
 				<div id="header">
 					<div id="header-pix"></div>
 					<h1>CHUKWUNONSO JOSEPH ORJIAKOR'S PROFILE</h1>
-					<h3>Web Dev | Programming | PC Maintenance & Repair | Networking</h3>
+					<h3>Web Dev | Programming | PC Maintenance & Repair</h3>
 				</div>
 				<div id="clickable-links">
-					<h3>0813-1172-617 | <a href = "mailto:chuksjoe@live.com">Chuksjoe@live.com</a></h3>
+					<h3>0813-1172-617 | <a href = "mailto:chuksjoe@live.com">Send Me a Mail</a></h3>
 					<div class="social-media-links">
 						<ul>
 							<a href="https://www.facebook.com/chuksjoe" target="_blank"><li><i class="fab fa-facebook-f" aria-hidden="true"></i></li></a>
 							<a href="https://twitter.com/Chuksjoe" target="_blank"><li><i class="fab fa-twitter" aria-hidden="true"></i></li></a>
 							<a href="https://www.linkedin.com/in/chukwunonso-orjiakor" target="_blank"><li><i class="fab fa-linkedin-in" aria-hidden="true"></i></li></a>
+							<a href="https://github.com/chuksjoe" target="_blank"><li><i class="fab fa-github" title="chuksjoe's DEV Profile"></i></li></a>
+							<a href="https://codepen.io/chuksjoe" target="_blank"><li><i class="fab fa-codepen" title="chuksjoe's DEV Profile"></i></li></a>
+							<a href="https://dev.to/chuksjoe" target="_blank"><li><i class="fab fa-dev" title="chuksjoe's DEV Profile"></i></li></a>
 						</ul>
 					</div>
 				</div>
@@ -42,7 +48,8 @@
 				</div>
 			</div>
 			<div class = "section-head" id = "skills">
-				<img class = "sec-head" src = "images/skills.png"/><div class="sec-title">SKILLS</div></div>
+				<table><tr><td><img class = "sec-head" src = "images/skills.png"/></td><td><div class="sec-title">SKILLS</div></td></tr></table>
+				</div>
 			<div id = "skills-cont" class = "section-content">
 				<div class="section-dual"><h3>Technical Skills <span class="proficiency-open">View<br>Proficiency<br>Level &gt&gt</span></h3>
 				<ul>
@@ -69,26 +76,28 @@
 				</ul></div>
 			</div>
 			<div class = "section-head">
-			<img class = "sec-head" src = "images/academics.png"/><div class="sec-title">EDUCATION QUALIFICATION WITH DATE</div></div>
+					<table><tr><td><img class = "sec-head" src = "images/academics.png"/></td><td><div class="sec-title">EDUCATION QUALIFICATION WITH DATE</div></td></tr></table>
+			</div>
 			<div id = "edu-section" class = "section-content">
-				<div>
+				<div class="school-div">
 					<p class="school"><a href = "http://www.yabatech.edu.ng" target = "_blank">Yaba College of Technology, Yaba Lagos</a></p>
 					<p>Higher National Diploma (HND) in Computer Science <b class = "grade"> [Distinction]</b></p>
 					<p>2015 - 2017</p>
 				</div>
-				<div>
+				<div class="school-div">
 					<p class="school"><a href = "https://www.fpno.edu.ng" target = "_blank">Federal Polytechnic Nekede, Owerri Imo</a></p>
 					<p>National Diploma (ND) in Computer Science <b class = "grade"> [Second Class Upper]</b></p>
 					<p>2010 - 2012</p>
 				</div>
-				<div>
+				<div class="school-div">
 					<p class="school"><a href = "http://www.lagosschoolsonline.com/Schools/Profile/1364" target = "_blank">Government College Lagos, Eric Moore, Lagos</a></p>
 					<p>West African Senior School Certificate (W.A.S.S.C)</p>
 					<p>2001 - 2007</p>
 				</div>
 			</div>
 			<div class = "section-head">
-				<img class = "sec-head" src = "images/work-experience.png"/><div class="sec-title">WORK EXPERIENCE</div></div>
+					<table><tr><td><img class = "sec-head" src = "images/work-experience.png"/></td><td><div class="sec-title">WORK EXPERIENCE</div></td></tr></table>
+				</div>
 			<div id = "work-section" class = "section-content">
 				<div class="section-dual">
 					<h3>ICT Freelancing(June 2014- Present)</h3>
@@ -117,7 +126,8 @@
 				</div>
 			</div>
 			<div class = "section-head">
-				<img class = "sec-head" src = "images/projects.png"/><div class="sec-title">ACADEMIC PROJECTS</div></div>
+					<table><tr><td><img class = "sec-head" src = "images/projects.png"/></td><td><div class="sec-title">ACADEMIC PROJECTS</div></td></tr></table>
+				</div>
 			<div id = "academic-section" class = "section-content">
 				<div class="section-dual">
 					<h3>Project for the award of Higher National Diploma (HND)(2017)</h3>
@@ -132,22 +142,27 @@
 				</div>
 			</div>
 			<div class = "section-head">
-				<img class = "sec-head" src = "images/certificates.png"/><div class="sec-title">OTHER QUALIFICATIONS</div></div>
+				<table><tr><td><img class = "sec-head" src = "images/certificates.png"/></td><td><div class="sec-title">OTHER QUALIFICATIONS</div></td></tr></table>
+			</div>
 			<div id = "others-section" class = "section-content">
 				<p class="school">Dataskills Computer School, Itire, Lagos</p>
 				<p>Diploma in Desktop Publishing</p>
 				<p>Feb 2008-June 2008</p>
 			</div>
 			<div class = "section-head">
-				<img class = "sec-head" src = "images/bio-data.png"/><div class="sec-title">BIO DATA</div></div>
+				<table><tr><td><img class = "sec-head" src = "images/bio-data.png"/></td><td><div class="sec-title">BIO DATA</div></td></tr></table>
+			</div>
 			<div id = "bio-section" class = "section-content">
-				<p><b>Date of Birth:</b>	23rd March 1989</p>
-				<p><b>Sex:</b>	Male</p>
-				<p><b>Nationality:</b>	Nigerian</p>
-				<p><b>State of Origin:</b>	Imo state</p>
+				<table><tbody>
+					<tr><td><b>Date of Birth:</b</td><td>23rd March 1989</td></tr>
+					<tr><td><b>Sex:</b></td><td>Male</td></tr>
+					<tr><td><b>Nationality:</b></td><td>Nigerian</td></tr>
+					<tr><td><b>State of Origin:</b></td><td>Imo state</td></tr>
+				</tbody></table>
 			</div>
 			<div class = "section-head">
-				<img class = "sec-head" src = "images/hobbies.png"/><div class="sec-title">INTEREST AND HOBBIES</div></div>
+				<table><tr><td><img class = "sec-head" src = "images/hobbies.png"/></td><td><div class="sec-title">INTEREST AND HOBBIES</div></td></tr></table>
+			</div>
 			<div id = "interest-section" class = "section-content">
 				<ul>
 					<li><i class="fa fa-book" aria-hidden="true"></i>Reading</li>
@@ -159,12 +174,14 @@
 				</ul>
 			</div>
 			<div class = "section-head">
-				<img class = "sec-head" src = "images/referees.png"/><div class="sec-title">REFEREES</div></div>
+				<table><tr><td><img class = "sec-head" src = "images/referees.png"/></td><td><div class="sec-title">REFEREES</div></td></tr></table>
+			</div>
 			<div id = "ref-section" class = "section-content">
 				<p>Available on Request</p>
 			</div>
 			<div class = "section-head">
-				<img class = "sec-head" src = "images/gallery.png"/><div class="sec-title">GALLERY</div></div>
+				<table><tr><td><img class = "sec-head" src = "images/gallery.png"/></td><td><div class="sec-title">GALLERY</div></td></tr></table>
+			</div>
 			<div id = "gallery-section" class = "section-content">
 				<div class="img-view">
 					<div id="image-holder">
