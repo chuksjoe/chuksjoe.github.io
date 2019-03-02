@@ -8,6 +8,7 @@ body {
   margin: 0px;
   line-height: 1.4;
   color: #045044;
+  min-width: 370px;
 }
 .no-scroll {
   overflow: hidden;
@@ -75,6 +76,12 @@ canvas {
   border-radius: 25%;
   margin: 0px auto;
   background: url("../images/header-pixs.jpg");
+}
+#profession {
+  width: 500px;
+  margin: 0px auto;
+  background-color: #045044;
+  color: #bcf6f2;
 }
 .social-media-links {
   width: 100%;
@@ -163,8 +170,9 @@ img.sec-head {
   float: left;
 }
 .school-div {
+  margin-top: 15px;
   padding: 15px;
-  box-shadow: 0 0 3px #66be45;
+  box-shadow: 0 0 4px #66be45;
 }
 .school {
   font-size: 24px;
@@ -330,8 +338,13 @@ span.proficiency-open {
 .proficiency-header {
   width: 100%;
   text-align: center;
-  text-decoration: underline;
   margin-bottom: 5px;
+}
+.proficiency-header h2 {
+  border-radius: 25px;
+  background-color: #045044;
+  color: #bcf6f2;
+  padding: 10px 15px;
 }
 .proficiency-close {
   position: absolute;
@@ -339,6 +352,7 @@ span.proficiency-open {
   right: 20px;
   cursor: pointer;
   padding: 6px 8px;
+  border: 2px solid #1cd3c6;
   border-radius: 50%;
   background-color: #045044;
   color: #bcf6f2;
@@ -366,7 +380,6 @@ div.section-head:hover,
 .progress-level {
   position: relative;
   left: 0px;
-  background-color: blue;
   height: 30px;
   text-align: center;
   color: #fff;
@@ -379,6 +392,11 @@ div.section-head:hover,
     width: 100%;
     padding-left: 0px;
     padding-right: 0px;
+  }
+  .box-shadow {
+    margin-top: 15px;
+    padding: 15px;
+    box-shadow: 0 0 4px #66be45;
   }
   .img-view,
   .pix-desc {
@@ -393,4 +411,7 @@ div.section-head:hover,
   }
 }
 @media only screen and (max-width: 550px) {
+  #profession {
+    width: 265px;
+  }
 }

@@ -13,12 +13,13 @@ $(document).ready(function() {
     ) {
       $(".section-content").hide();
       $("div.sec-title").removeClass("active");
+      //To make the images in the gallery section to auto-slide when the section is opened
       if (
         $(this)
           .children(".sec-title")
           .text() == "GALLERY"
       ) {
-        //alert("You now viewing my GALLERY!");
+        //alert("You're now viewing my GALLERY!");
         //imgSlideTimer = setInterval(autoSlideRight, 1500);
       }
       $(this)
@@ -130,4 +131,4 @@ $(document).ready(function() {
     $(".overlay").fadeOut();
     $("body").removeClass("no-scroll");
   }
-});
+}); //End of document.ready
