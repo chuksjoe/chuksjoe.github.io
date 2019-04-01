@@ -412,6 +412,6 @@ div.section-head:hover,
 }
 @media only screen and (max-width: 550px) {
   #profession {
-    width: 265px;
+    width: 255px;
   }
 }
