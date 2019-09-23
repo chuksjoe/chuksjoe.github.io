@@ -44,7 +44,7 @@ b {
   width: 100%;
   max-width: 1100px;
   background-color: rgba(39, 255, 246, 0.5);
-  padding: 10px 20px 10px 20px;
+  padding: 20px;
 }
 .intro {
   padding-top: 25px;
@@ -177,14 +177,11 @@ img.sec-head {
 .school {
   font-size: 24px;
 }
+.clear {
+  clear: both;
+}
 .grade {
   color: #049844;
-}
-#bio-section table {
-  margin-top: 15px;
-}
-#bio-section table td {
-  padding: 5px;
 }
 #interest-section ul {
   list-style: none;
@@ -302,13 +299,14 @@ footer div.right {
 span.proficiency-open {
   position: absolute;
   top: 5px;
-  right: 0px;
+  right: 60px;
   font-size: 13px;
   padding: 5px 10px;
   margin-top: 10px;
   border-radius: 40%;
   border-bottom: 3px solid #045044;
   border-right: 3px solid #045044;
+  box-shadow: inset 2px 2px 5px rgba(0, 0, 0, 0.8);
   color: #bcf6f2;
   font-style: italic;
   text-align: center;
